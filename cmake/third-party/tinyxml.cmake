@@ -6,7 +6,7 @@ endif()
 
 include (ExternalProject)
 ExternalProject_Add(tinyxml
-  GIT_REPOSITORY https://github.com/leethomason/tinyxml2.git
+  GIT_REPOSITORY https://github.com/andreacovelli/tinyxml2.git
   GIT_TAG master
   PREFIX "${THIRD_PARTY_DIR}/tinyxml"
   SOURCE_DIR "${THIRD_PARTY_DIR}/tinyxml/source" 

@@ -1,7 +1,7 @@
 if ( ${BUILD_MATPLOTLIBCPP} )
     include (ExternalProject)
     ExternalProject_Add(matplotlibcpp
-      GIT_REPOSITORY https://github.com/lava/matplotlib-cpp.git
+      GIT_REPOSITORY https://github.com/andreacovelli/matplotlib-cpp.git
       GIT_TAG master
       PREFIX "${THIRD_PARTY_DIR}/matplotlibcpp"
       SOURCE_DIR ${THIRD_PARTY_DIR}/matplotlibcpp/source

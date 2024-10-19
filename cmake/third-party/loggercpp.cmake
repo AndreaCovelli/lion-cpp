@@ -1,7 +1,7 @@
 if ( ${BUILD_LOGGERCPP} )
     include (ExternalProject)
     ExternalProject_Add(loggercpp
-      GIT_REPOSITORY https://github.com/juanmanzanero/logger-cpp.git
+      GIT_REPOSITORY https://github.com/andreacovelli/logger-cpp.git
       GIT_TAG main
       PREFIX "${THIRD_PARTY_DIR}/loggercpp"
       SOURCE_DIR ${THIRD_PARTY_DIR}/loggercpp/source

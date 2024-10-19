@@ -2,7 +2,7 @@ if (${BUILD_LAPACK})
 
 include (ExternalProject)
 ExternalProject_Add(lapack
-  GIT_REPOSITORY https://github.com/Reference-LAPACK/lapack.git
+  GIT_REPOSITORY https://github.com/andreacovelli/lapack.git
   GIT_TAG master
   PREFIX "${THIRD_PARTY_DIR}/lapack"
   SOURCE_DIR "${THIRD_PARTY_DIR}/lapack/source" 
